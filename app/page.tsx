@@ -12,7 +12,7 @@ export default function Home() {
             Discover stories, thoughts, and ideas. Explore my latest posts and dive into topics that matter.
           </p>
 
-          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8">
             <Link
               href="/blog"
               className="flex h-14 items-center justify-center gap-2 rounded-full bg-zinc-900 dark:bg-zinc-50 px-8 text-lg font-medium text-white dark:text-zinc-900 transition-all hover:bg-zinc-700 dark:hover:bg-zinc-200 hover:scale-105"
@@ -31,12 +31,6 @@ export default function Home() {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-            </Link>
-            <Link
-              href="/studio"
-              className="flex h-14 items-center justify-center rounded-full border-2 border-zinc-300 dark:border-zinc-700 px-8 text-lg font-medium text-zinc-900 dark:text-zinc-50 transition-all hover:border-zinc-400 dark:hover:border-zinc-600 hover:bg-zinc-100 dark:hover:bg-zinc-800"
-            >
-              Sanity Studio
             </Link>
           </div>
         </div>
