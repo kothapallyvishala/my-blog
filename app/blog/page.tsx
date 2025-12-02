@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import { Post } from '@/types/blog';
@@ -126,28 +127,6 @@ export default async function BlogPage() {
           </div>
         )}
 
-        {/* Back to Home */}
-        <div className="mt-16 text-center">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
-          >
-            <svg
-              className="h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M10 19l-7-7m0 0l7-7m-7 7h18"
-              />
-            </svg>
-            Back to Home
-          </Link>
-        </div>
       </div>
     </div>
   );
