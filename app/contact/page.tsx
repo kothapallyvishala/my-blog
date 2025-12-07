@@ -3,7 +3,7 @@ import Link from 'next/link';
 const socialLinks = [
   {
     name: 'GitHub',
-    href: 'https://github.com/username',
+    href: 'https://github.com/kothapallyvishala',
     description: 'Check out my code and open source contributions',
     icon: (
       <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/username',
+    href: 'https://linkedin.com/in/vishala-kothapally',
     description: 'Connect with me professionally',
     icon: (
       <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -74,10 +74,10 @@ export default function ContactPage() {
                   Feel free to reach out for collaborations or just a friendly chat.
                 </p>
                 <Link
-                  href="mailto:your-email@example.com"
+                  href="kothapallivishala@gmail.com"
                   className="text-blue-600 dark:text-blue-400 font-medium hover:underline"
                 >
-                  your-email@example.com
+                  kothapallivishala@gmail.com
                 </Link>
               </div>
             </div>
