@@ -1,6 +1,14 @@
 {
   "permissions": {
-    "allow": ["Bash(tree:*)", "Bash(cat:*)", "WebSearch"],
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(cat:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add \"https://magicui.design/r/animated-theme-toggler\")",
+      "Bash(npm run build:*)"
+    ],
     "deny": [],
     "ask": []
   },
